@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            color: red;
+            font-size: 48px;
+        }
+        h2{
+            color: rgb(152, 3, 140)
+        }
+        #about {
+             background-color: bisque;
+           p{color: black;}
+        }
+        .container{
+            text-align: center;
+        }
+    </style>
 </head>
 <body> 
     <header>
         <h1>My Portfolio</h1>
         <p>Welcome to my first portfolio</p>
+        <hr>
     </header>   
     <nav>
         <a href="#about">About</a>
@@ -18,10 +36,10 @@
     </nav>
     <main>
  <!--About Section-->
-    <section id="about">
-        <h2>About Me</h2>
+    <section id="about" class="container">
+        <h1>About Me</h1>
         <img src="Images/Profile.jfif" alt="">
-        <p>Hello! I am a beiginner learning how to build websites.
+        <p>Hello! I am a beginner learning how to build websites.
         </p>
         <p>I am learning from <a href="https://www.w3schools.com/" target="blank">W3Schools</a> 
         </p>
@@ -30,6 +48,7 @@
              skills
         </p>
     </section>
+    <hr>
     <!--Hobbies Section-->
     <section id="hobbies">
         <h2>My hobbies</h2>
@@ -47,6 +66,7 @@
             <li>Learn JavaScript</li>
         </ol>
     </section>
+    <hr>
     <!--Skills Sction-->
     <section id="skills">
         <h2>My Skills</h2>
@@ -79,6 +99,7 @@
         </table>
 
     </section>
+    <hr>
     <!--Contact Section-->
      <section id="contact">
         <h2>Contact</h2>
